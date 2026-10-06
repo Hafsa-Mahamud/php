@@ -86,7 +86,7 @@ echo '<div style="text-align:center; background:linear-gradient(135deg,#00c6ff,#
 
 echo '<h2>Assignment 4</h2>';
 
-echo '<h3>Numbers Divisible by 2 and 5</h3>';
+echo '<h3>Numbers Divisible by 2 and 5 (50 to 2)</h3>';
 
 for ($i = 50; $i >= 2; $i--) {
     if ($i % 2 == 0 && $i % 5 == 0) {
@@ -189,7 +189,7 @@ echo '</table>';
 echo '</div>';
 
 
-$number = 10;
+$number = 11;
 $isPrime = true;
 
 if ($number < 2) {
